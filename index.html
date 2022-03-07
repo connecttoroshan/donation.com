@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>INDEX</title>
+ 
+ <link rel="stylesheet" type="text/css" href="index.css">
+
+    
+ </head> 
+ 
+ 
+ 
+ <body>
+
+	<div class="head">
+	<div><img src="banner.png" id="banner"></div>
+
+	<nav class="menu" id="menu">
+      
+	  <div class="logo">
+	    <img src="sysicon.png" alt="icon" width="42" height="42">
+		<h2>eDonation</h2>
+	  </div>
+	  <a href="userlogin.html" id="login">Log in / Sign in</a>
+	  <ul>
+		 
+         <li id="active"><a href="">eDonation</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <li><a href="about.html">About</a></li>
+      </ul>
+	  
+   </nav>
+</div >
+
+<div class="box" id="first">
+ <div><img src="poster1.jpg" alt="image" class="poster"></div>
+  <div class="para"><p>Your small contribution can give someone a chance to go to school.</p></div>
+ </div>
+
+   <br><br>
+
+ <div class="box">  
+  <div class="para"><p> There are lots of orphanage and organizations who helps the homeless children,
+  And these organizations are empowered by your Support. <br><br>
+  Transform the lives of homeless children and change their story. </p></div>
+  <div><img src="poster2.jpg" alt="image" class="poster"></div>
+  </div>
+
+
+   <br><br>
+
+ <div class="box">
+   <div><img src="poster3.jpg" alt="image" class="poster"></div>
+   
+   <div class="para"><p>India has 220 million poor according to the last poverty count.
+   The people who are suffering from poverty sleep on the roadside, wear dirty old clothes, neither medicine nor
+   any other necessary thing and hardly afford a meal.<br><br> Take a step for them and do your contribution.</p></div>
+ 
+ </div>
+
+   <br><br>
+
+ <div class="box">  
+  <div class="para"><p> Adopt a grandparent by providing them monthly groceries.<br><br>
+  Make Sure they don't feel they are burdon. </p></div>
+  <div><img src="poster4.jpg" alt="image" class="poster"></div>
+  </div>
+
+
+
+  <!-- This is Footer part !-->
+    
+	<footer>
+	
+	<div class="footer">
+     
+	 
+	 
+	 <div id="contact">
+	 
+	 <a href="orglogin.html">Log In As Organisation</a>
+	 <p class="footerpara"><br>If you are a organization want to join with us then Register as a Organisation.</p>
+	</div>
+	
+	
+	 <div id="logo">
+	    <img src="sysicon.png" alt="icon" width="42" height="42">
+		<h2>eDonation</h2>
+		<br>
+		<p>All rights are reserved by eDonation System.</p>
+	  </div>
+	  
+	
+	<div id="about">
+	 <a href="about.html">About US</a>
+	 <p class="footerpara"><br>This is Non-Profitable eDonation system where you can donate people & help them, for more click on the above link.</p>
+	</div>
+	
+	</div>
+	
+	</footer>
+   
+   <!-- This is JavaScript Code !-->
+   <script >
+
+     var menu = document.getElementById('menu');
+
+       window.onscroll = function () {
+
+         if(window.pageYOffset > 450)
+		 {
+
+          menu.style.position = "fixed";
+          menu.style.top = 0;
+
+         }
+		 
+		 else
+		  {
+            // menu.style.position = "absolute";
+            menu.style.position = 'relative'; //fixed
+            menu.style.top = 200;
+          }
+       }
+
+
+
+   </script>
+
+   
+</body>
+</html>
