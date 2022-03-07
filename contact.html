@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact US</title>
+ <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+
+<body>
+ 
+  
+   	<nav class="menu" id="menu">
+      
+	  <div class="logo">
+	    <img src="sysicon.png" alt="icon" width="42" height="42">
+		<h2>eDonation</h2>
+	  </div>
+	  
+	  <ul>
+		 <li ><a href="home.php" >Organisations List</a></li>
+         <li id="active"><a href="contact.html">Contact</a></li>
+         <li><a href="about.html">About</a></li>
+      </ul>
+	  
+    </nav> 
+ 
+  
+  
+  
+  <div class="content">
+     <img src="logoV.png">
+	 <h1>Contact Us</h1>
+     <p>Got a question? We'd love to hear from you. 
+	    Send us a message and we"ll respond as soon as possible.
+	 </p>
+	 
+	 <form method="post" action="contact_handler.php">
+	 
+	  <input type="text" placeholder="Name" class="field" name="name">
+	  <br>
+	  <input type="email" placeholder="E-mail" class="field" name="email">
+	  <br><br>
+	  <textarea class="field" name="message" placeholder="Message"></textarea>
+	  <br><br>
+	  <input type="submit" value="Send Data" id="button">
+	 </form>
+  </div>
+ 
+ 
+</body>
+</html>

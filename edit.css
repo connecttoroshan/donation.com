@@ -1,0 +1,134 @@
+*{
+      padding: 0px;
+      margin: 0px;
+ }
+
+body{
+     font-family:Candara;
+    }
+#aboutorg
+{
+margin:35px 20px;
+box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+background:white;
+padding:20px;
+}
+
+#detailhead
+{
+ color:maroon;	
+}
+
+#pictures
+{
+	width:1500px; 
+	margin:0 auto 0 auto; 
+	display:flex;
+}
+
+.images
+{
+	width:50%;
+	height:auto;
+	
+	margin:5px;
+}
+
+#orgname
+{
+box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+background:linear-gradient(to right,black,maroon);
+display:flex;
+width:100%;
+}
+
+#name
+{
+ width:100%;
+ text-align:center;
+}
+
+#name h1
+{
+color:white;
+margin-top:1%;
+}
+
+#list
+{
+	width:15%;
+}
+
+#list a
+{
+	display: inline-block;
+    margin:10px;
+	padding:10px;
+    border:1px solid white;
+	border-radius:0px;
+    color: white;
+    font-size: 20px;
+	float:right;
+	text-decoration:none;
+	transition-duration:0.7s;
+}
+#list a:hover
+{
+	background:white;
+	border:1px solid red;
+	color:maroon;
+	
+}
+button
+{
+	margin:10px;
+	width:80px;
+	transition-duration:0.7s;
+	padding:10px;
+    border:1px solid maroon;
+	background:maroon;
+    color:white;
+    font-size: 15px;
+}
+button:hover
+{
+	cursor:pointer;
+	background:white;
+	color:maroon;
+}	
+.footer
+   {
+	height:auto;  
+    width:auto;	
+	background:linear-gradient(to right,black,maroon);
+    padding:0px 80px;	
+	display:flex;
+	justify-content:space-between;
+	margin-top:50px;
+	
+   }
+    
+   .footer #about, #contact, #logo 
+   {
+    margin:10px;
+	text-align:center;
+	color:white;
+	
+	
+   }
+   .footer #about, #contact 
+   {
+    width:250px;
+	text-decoration:none;
+	color:white;
+   }
+   .footer #about a, #contact a 
+   {
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+   }
+   .footerpara
+   {
+    color:#ccc;
+   }

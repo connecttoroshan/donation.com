@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Log-In!</title>
+<link rel="stylesheet" type="text/css" href="userlogin.css">
+<style>
+ #eDonation-Logo
+ {
+   margin-bottom:-50px;
+ }
+ 
+ #SubButton
+ { background:darkblue;
+	 width:72%;
+	 height:30px;
+	 color:white;
+	 border-radius:10px;
+ }
+#SubButton:hover{
+		background:black;
+		padding:1px;
+		border-radius:10px;
+		box-shadow: 0px 0px 10px 10px blue;
+		cursor:pointer;
+	 } 
+#adminH
+{
+  float:right;
+  font-size:30px;
+}	 
+ 
+</style>
+</head>
+<body>
+
+<nav class="menu" id="menu">
+      
+	  <div class="logo">
+	    <a href="index.html"><img src="logoH.png" ></a>
+	  </div>
+	  <h1 id="adminH">ADMINISTRATIVE </h1> 
+	 
+    </nav> 
+
+  <div  id="outerbox">
+		</br>
+		 <h1 id="h">LOG IN FOR ADMINISTRATIVE</h1>
+		 <img src="logoH.png" alt="eDonation-Logo" id="eDonation-Logo"/>
+		<form action="admin.php" id="form" method="post">
+			
+			<input type="text" placeholder="Username here..." name="username"  required>
+			<br></br>
+			
+			<input type="Password" " placeholder="Password here..." name="password" required >
+			<br></br>
+			<input type="submit" value="Log-IN" style="margin-bottom:10px;" id="SubButton"><br>
+		</form>
+	</div>
+  
+</body>
+</html>

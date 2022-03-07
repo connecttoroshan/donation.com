@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    padding:0;
+    width:100%;
+    height:100vh;
+    font-family:Candara;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+.about-section {
+  padding: 30px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+  
+}
+
+
+
+.navbar
+   {
+    display:flex;
+	width:100%;
+	justify-content:space-between;
+    float:left;  
+	
+  }
+   .menu li
+	{
+        list-style-type: none;
+        display: inline-block;
+        padding:5px 15px;
+		font-size: 15px; 
+	    margin-left:-15px;
+	}
+	.menu li a
+	{
+	 text-decoration:none;
+	 color:white;
+	}
+
+	.logo
+	{
+	text-align:center;
+	 
+	font-size:17px;
+		  
+	}
+    .logo h2
+	{
+		margin-top:-5px;
+		
+	}		
+
+    .logo a
+	{
+		text-decoration:none; 
+		color:white;
+		font-family:candara;
+	}
+
+
+ #box 
+ {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:;
+  margin:auto;
+  width:60%;
+  margin-top:20px; 
+  text-align:center;
+ 
+ }
+
+
+.title {
+  color: grey;
+}
