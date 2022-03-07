@@ -1,0 +1,194 @@
+*{
+      padding: 0px;
+      margin: 0px;
+ }
+.change
+{
+	margin:auto;
+	padding:20px;
+	
+	margin-top:20px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	
+}
+h1
+{
+	text-align:center;
+	margin:20px;
+	color:maroon;
+	margin-top:2.5%;
+
+}
+.change h2
+{
+	text-align:center;
+    margin:20px 10px 20px 10px;
+	text-decoration:underline;
+	color:maroon;
+}
+
+
+#choose,#poster,#pics
+{
+border:1px solid black;
+border-radius:10px;
+font-size:20px;
+color:maroon;
+
+}
+#choose:hover,#poster:hover,#pics:hover
+{
+	cursor:pointer;
+}
+
+
+
+ .fields
+ {
+	outline:none;
+	border:none;
+	border-bottom:2px solid black;
+	width:85%;
+	float:right;
+	font-size:20px;
+	
+ }
+ 
+#text
+{
+	width:75%;
+	float:none;
+	margin:0 2% 0 2% ;
+}
+
+label
+ {
+	font-size:30px;
+	color:maroon;
+ }
+ 
+ 
+ .send-button
+ {
+	border:1px solid maroon;
+	width:30%;
+	float:right;
+	outline:none;
+	height:35px;
+	color:white;
+	font-size:20px;
+	background:maroon;
+	box-shadow:3px 3px 7px gray;
+	transition-duration:0.8s;
+ }
+ .send-button:hover
+ {
+	background:white;
+	color:maroon;
+	border:1px solid maroon;
+	cursor:pointer;
+ }
+ 
+ .update_buttons
+ {
+	border:1px solid maroon;
+	width:8%;
+	float:right;
+	outline:none;
+	height:35px;
+	color:white;
+	font-size:17px;
+	background:maroon;
+	box-shadow:3px 3px 7px gray;
+	transition-duration:0.8s; 
+ }
+ .update_buttons:hover
+ {
+	 background:white;
+	color:maroon;
+	border:1px solid maroon;
+	cursor:pointer;
+ }
+ 
+ /*   Topbar Section  */
+#topbar
+{	
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background:linear-gradient(to right,black,maroon);
+    display:flex;
+    width:100%;
+}
+#name
+{
+ width:100%;
+ text-align:center;
+}
+
+#name h1
+{
+color:white;
+margin-top:1%;
+}
+
+#list
+{
+	width:15%;
+}
+
+#list a
+{
+	display: inline-block;
+    margin:10px;
+	padding:10px;
+    border:1px solid white;
+	border-radius:0px;
+    color: white;
+    font-size: 20px;
+	float:right;
+	text-decoration:none;
+	transition-duration:0.7s;
+}
+#list a:hover
+{
+	background:white;
+	border:1px solid red;
+	color:maroon;
+	
+}
+
+/* ------------Footer part------------------    */
+.footer
+   {
+	height:130px;  
+    width:auto;	
+	background:linear-gradient(to right,black,maroon);
+    padding:0px 80px;	
+	display:flex;
+	justify-content:space-between;
+	margin-top:0;
+   }
+    
+   .footer #about, #contact, #logo 
+   {
+    margin:10px;
+	text-align:center;
+	color:white;
+	
+	
+   }
+   .footer #about, #contact 
+   {
+    width:250px;
+	text-decoration:none;
+	color:white;
+   }
+   .footer #about a, #contact a 
+   {
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+   }
+   .footerpara
+   {
+    color:#ccc;
+   }

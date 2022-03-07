@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Donor Log-In!</title>
+<link rel="stylesheet" type="text/css" href="userlogin.css">
+
+</head>
+<body>
+
+	<nav class="menu" id="menu">
+      
+	  <div class="logo">
+	    <img src="logoH.png" >
+	  </div>
+	
+	  <ul>
+		 <li ><a href="index.html" >Home</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <li><a href="about.html">About</a></li>
+      </ul>
+	</nav> 
+
+
+ 
+<div id="mainbox">
+ <div id="loginbox">
+ <br>
+ <h1 style="text-decoration:underline;">Login Section For Users</h1>
+  <div  id="outerbox">
+    <img src="login2.png" class="img" alt="logo_here" />
+		 <h1 id="h">LOG IN HERE</h1>
+		         
+		 
+		<form action="userlogin.php" id="form" method="post">
+			<img src="logicon.png" class="icon" style="width:35px;margin-bottom:-10px;"alt="E-mail"/> 
+			<input type="text" placeholder="Username here..." name="username"  required>
+			<br></br>
+			<img src="lockicon.png" class="icon" style="width:35px;margin-bottom:-10px;"alt="Pass"/> 
+			<input type="Password" " placeholder="Password here..." name="password" required >
+			<br>
+			<input type="submit" value="Log-IN" style="margin-bottom:10px;" id="Sub"><br>
+		
+		</form>
+</div>
+</div>
+ <div>
+  <div class="box">	
+	<form method="post" action="usersignup.php">
+	
+	<hr style="margin-top:20px;width:90px;" size="3px" align="left"><h2 style="text-align:center; margin:-24px auto 35px;">Registration Here</h2><hr style="margin-top:-50px;width:90px; margin-bottom:30px;" align="right" size="3px">
+
+		<label for="fname">First Name</label><input type="text" id="fname" placeholder="First Name*" class="fill" name="fname" required><br><br>
+		<label for="username">Username </label><input type="text" placeholder="username*" class="fill" id="username" name="username" required><br><br>
+		<label for="email">E-mail </label><input type="email" id="email" class="fill" placeholder="E-mail*" name="email" required><br><br>
+        <label for="ph">Mobile </label><input type="tel" id="ph" maxlength="10" class="fill" placeholder="Mobile*" name="phone" required><br><br>
+		<label for="password">Password </label><input type="password" id="password" class="fill" placeholder="Create Password*" name="password" required><br><br>
+		<label for="cnfpwd">Confirm Password </label><input type="password" id="cnfpwd" class="fill" placeholder="Type Password Again*" required><br><br>
+	<br>	<label for="age">D.O.B </label><input type="date" id="age" min="01-01-1940" class="fill" name="dob" required></br><br>
+		
+		<label for="gender">Gender :</label>
+		      <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+		      <input type="radio" id="female" name="gender" value="female" style="margin-left:50px"><label for="female">Female</label>
+			  
+			  <br><br>
+	
+	<input type="submit" value="Register" >
+	
+
+	</form>
+  </div>
+ </div>
+
+</div> 
+
+
+</body>
+</html>

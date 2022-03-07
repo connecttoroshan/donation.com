@@ -1,0 +1,180 @@
+ *{
+      padding: 0px;
+      margin: 0px;
+   }
+   body{
+      background: #ccc;
+	  font-family:Candara;
+   }
+
+   #banner
+   {
+	   background-image:url('banner2.jpg');
+	   background-position:center;
+       background-repeat:no-repeat;
+	   height:500px;
+	   background-size:cover;
+	
+   }
+   .head
+      {
+      width: 100%;
+      text-align:center;
+	 
+      }
+          
+   
+   .menu{
+      background : rgb(0,0,0,0.7);
+      padding: 15px 0px;
+      text-align: center;
+      position:fixed;
+      width: 100%;
+	  box-shadow:0px 3px 5px gray;
+
+   }
+   
+   .logo
+   {
+	   float:left;
+	   margin-left:5px;
+	   display:inline-block;
+	   
+   }   
+   
+   .logo h2
+   {
+    color:white;  
+	width:100px;
+	float:right;
+	margin: 7px 5px;
+     
+   }
+   
+   #logout
+   {
+    float:right;
+	margin:10px;
+	text-decoration:none;
+	color:white;
+   }
+   
+   .menu li{
+          list-style-type: none;
+          display: inline-block;
+          padding: 10px 40px;
+		  margin:0px 15px;
+          border:1px solid white;
+		  border-radius:7px;
+          color: white;
+          font-size: 20px; 
+		  }	
+	.menu li a
+	{
+	 text-decoration:none;
+	 color:white;
+	}	
+	.menu li:hover, #active
+	{
+	 background:rgb(128,0,128,0.4);
+	}
+	
+	.box{
+      width: 85%;
+      margin:auto;
+	  margin-top:20px;
+	  text-align:center;
+      background:white;
+      
+      font-size: 25px;
+	  border-radius:10px;
+	  box-shadow:5px 5px 3px gray;
+	  display:flex;
+	  justify-content:space-between;
+   }
+     
+  .para
+  {
+   color:purple;
+   padding:20px;
+   font-size:20px;
+   text-align:center;
+  
+  }
+  
+  .h3
+  {
+	  text-align:center;
+	  color:darkblue;
+	  margin-bottom:10px;
+	  border:none;
+	  font-size:23px;
+	  color:none;
+	  background-color:white;
+	  cursor:pointer;
+  }
+  
+  .poster
+  {
+    border-radius:10px;
+    margin:10px;
+	width:120px;
+	height:auto;	
+	float:left;
+	padding:auto;
+  }
+  
+  .donate
+  {
+	float:right;
+	border:none;		
+	border-radius:0px 10px 10px 0px;
+	padding:10px;
+	outline:none;
+	background:purple;
+	color:white;
+	font-size:17px;
+	transition-duration:0.7s;
+  }
+   .donate:hover
+   {
+	background:orange;
+	cursor:pointer;
+	color:white;
+	text-decoration:underline;
+	font-size:19px;
+   }
+
+  .footer
+   {
+	background:purple;
+    padding:0px 80px;	
+	display:flex;
+	justify-content:space-between;
+	margin-top:50px;
+   }
+    
+   .footer #about, #contact, #logo 
+   {
+    margin:10px;
+	text-align:center;
+	color:white;
+	
+	
+   }
+   .footer #about, #contact 
+   {
+    width:250px;
+	text-decoration:none;
+	color:white;
+   }
+   .footer #about a, #contact a 
+   {
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+   }
+   .footerpara
+   {
+    color:#ccc;
+   }

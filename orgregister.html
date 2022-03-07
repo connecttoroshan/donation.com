@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Organisation Register</title>
+<link rel="stylesheet" type="text/css" href="orgregister.css">
+
+</head>
+<body>
+
+<nav class="menu" id="menu">
+      
+	  <div class="logo">
+	    <a href="index.html"><img src="logoH.png" ></a>
+	  </div>
+	  
+	  <ul>
+		 <li ><a href="orglogin.html" >Login Page</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <li><a href="about.html">About</a></li>
+      </ul>
+	  
+    </nav> 
+
+
+ <h1 class="head">Create Username & Password For Login</h1>
+ 
+ 
+    <form action="orgregister.php" method="post" enctype="multipart/form-data">
+	 
+	 <div class="regi">
+	    <input type="text" name="username" id="username" class="registration" placeholder="Make Username Here..." required>
+		<input type="password" name="password" id="Password" class="registration" placeholder="Type Password Here..." required>
+	    <input type="number" id="ConfirmPassword" class="registration" placeholder="Confirm Password..." name="accno">
+	 </div>
+	 <h1 class="head">Give brief details about your organisation </h1>
+	 <div class="form">
+	 <label for="orgname">Organisation Name: </label><input type="text" id="orgname" class="field" name="orgname">
+		</br></br>
+	 <label for="description">Brief Description: </label><textarea id="text" name="description" 
+	  placeholder="Write Brief Description here about your Organisation"></textarea>
+     </br></br>
+	 
+	 <label for="logo">Organisation Logo: </label><input type="file" name="logo" id="choose">
+	 <label for="poster" id="posterL">Organisation Poster: </label><input type="file" name="poster" id="poster">
+	
+	 </br></br>
+	 </div>
+	 <div id="buttondiv">
+	 <input type="submit" value="Send Data" class="button">
+	 </div>
+	</form>
+ 
+
+   
+
+</body>
+</html>

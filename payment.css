@@ -1,0 +1,119 @@
+ *{
+      padding: 0px;
+      margin: 0px;
+   }
+   body{
+      background: #ccc;
+	  font-family:Candara;
+   }
+ .menu{
+      background : rgb(0,0,0,0.7);
+      padding: 15px 0px;
+      text-align: center;
+      width: 100%;
+	  box-shadow:0px 3px 5px gray;
+
+   }
+   
+   .logo
+   {
+	   float:left;
+	   margin-left:5px;
+	   display:inline-block;
+	   
+   }   
+   
+   .logo h2
+   {
+    color:white;  
+	width:100px;
+	float:right;
+	margin: 7px 5px;
+     
+   }
+   
+   #logout
+   {
+    float:right;
+	margin:10px;
+	text-decoration:none;
+	color:white;
+   }
+   
+   .menu li{
+          list-style-type: none;
+          display: inline-block;
+          padding: 10px 40px;
+		  margin:0px 15px;
+          border:1px solid white;
+		  border-radius:7px;
+          color: white;
+          font-size: 20px; 
+		  }	
+	.menu li a
+	{
+	 text-decoration:none;
+	 color:white;
+	}	
+	.menu li:hover, #active
+	{
+	 background:rgb(128,0,128,0.4);
+	}
+	
+	label
+	{
+		width:250px;
+		display:inline-block;
+		margin:15px;
+		
+	}
+	#outerbox
+	{
+		width:100%;
+		margin-top:5%;
+		
+	}
+	#box
+	{
+	
+	background-color:white;
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+	padding:25px;	
+	font-size:25px;
+	width:30%;
+	margin:auto;
+	
+	}
+	#CardNumber,#CardHolder,#cvv,#pin,#amount,#ExpiryDate,#select,#month,#year
+	{
+	 height:25px;
+	 width:	
+	
+	}
+	#buttondiv
+	{
+		text-align:center;
+		margin-top:20px;
+		
+	}
+	#button
+	{
+		border:none;
+		margin:auto;
+		padding:10px;
+		font-size:17px;
+		color:white;
+		background-color:green;
+		transition-duration:0.7s;
+	}
+	#button:hover
+	{
+		cursor:pointer;
+		background-color:purple;
+	}
+	h1
+	{
+		background:linear-gradient(to right,black,purple);
+		color:white;
+		text-align:center;
+	}

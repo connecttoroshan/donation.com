@@ -1,0 +1,204 @@
+ *{
+      padding: 0px;
+      margin: 0px;
+   }
+   body
+    {
+    font-family:Candara;
+	background:white;
+    }
+
+#back
+{
+	margin-top:5%;
+	text-align:center;
+}
+#page
+{
+ background-color:white;		
+ box-shadow:0px 4px 8px 0px rgb(0,0,0,0.2);
+ width:60%;
+ text-align:center;
+ margin:auto;
+}  
+
+#div1
+{
+ 
+ display:flex;
+ padding:10px;
+}
+ #div1a 
+ {
+  margin:auto;
+  float:right;
+ }
+ #div1b 
+ {
+  float:left;
+  margin:auto;
+ }
+#div2
+{
+ background:linear-gradient(to right,black,purple);
+ color:white;
+ padding:10px; 
+ text-shadow:0 0 20px white;
+}
+#div3
+{
+  margin:10px;
+  display:flex;
+  font-size:20px;
+}
+  #div3a
+  {
+    float:left;	
+	font-weight:bold;
+	padding:20px;
+	margin:auto;
+  }
+  #div3b
+  {
+	text-align:center;
+	float:right;
+	font-weight:bold;
+	margin:auto;
+  }
+#div4
+{
+  margin:10px;
+  padding:10px;
+  margin-bottom:20px;
+}
+#img 
+{
+    display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width:150px;
+	height:auto;	
+	float:left;
+	padding:auto;
+}
+#statement
+{
+	font-weight:bold;
+	font-size:30px;
+	color:purple;
+	text-shadow:0 0 20px purple;
+}
+#money
+	{
+	font-size:35px;
+	color:Red;	
+	text-shadow:0 0 20px red;
+	}
+#quote
+{
+	margin-top:20px;
+	padding:10px;
+	font-weight:bold;
+}
+#print
+{
+	background:#0054C5;
+	border:none;
+	padding:10px;
+    color:white;
+	width:6%;
+	outline:none;
+}
+#print:hover
+{
+	background:#509BFF;
+	cursor:pointer;
+}
+
+/***========= Top Bar ============***/
+.menu{
+      background:linear-gradient(to right,black,gray);
+      padding: 15px 0px;
+      text-align: center;
+      width: 100%;
+	  box-shadow:0px 3px 5px gray;
+
+   }
+   
+   .logo
+   {
+	   float:left;
+	   margin-left:5px;
+	   display:inline-block;
+	   
+   }   
+   
+   .logo h2
+   {
+    color:white;  
+	width:100px;
+	float:right;
+	margin: 7px 5px;
+     
+   }
+   
+   #logout
+   {
+    float:right;
+	margin:10px;
+	text-decoration:none;
+	color:white;
+   }
+   
+   .menu li{
+          list-style-type: none;
+          display: inline-block;
+          padding: 10px 40px;
+		  margin:0px 15px;
+          border:1px solid white;
+		  border-radius:7px;
+          color: white;
+          font-size: 20px; 
+		  }	
+	.menu li a
+	{
+	 text-decoration:none;
+	 color:white;
+	}	
+	.menu li:hover, #active
+	{
+	 background:rgb(128,0,128,0.4);
+	}
+	
+	
+   
+	
+	#don_table
+	{
+		text-align:center;
+		width:98%;
+		background:linear-gradient(to right,purple,#151B54);
+		color:white;
+		font-size:20px;
+		margin:1%;
+		box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.4);
+	}
+	#don_table th
+	{
+		background:rgba(255,255,255,0.3);
+		padding:10px;
+	}
+	#don_table td
+	{
+		padding:10px;
+	}
+	#don_table tr
+	{
+		background:rgba(0,0,0,0.3);
+	}
+	#don_table tr:hover
+	{
+		background:rgba(128,0,0,0.3);
+	}
+	
+	

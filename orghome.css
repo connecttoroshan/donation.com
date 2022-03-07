@@ -1,0 +1,165 @@
+*{
+      padding: 0px;
+      margin: 0px;
+ }
+/* Bottom Section  */
+#orgname
+{
+border:3px solid purple;
+display:flex;
+margin:auto;
+}
+#logo
+{
+  height:150px;
+  margin:2px;
+}
+
+#orgname h1
+{
+ width:100%;
+ text-align:center;
+ vertical-align:middle;
+ margin-top:50px;
+ margin-left:-150px;
+ font-size:40px;
+}
+ 
+
+/*   Topbar Section  */
+#topbar
+{	
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background:linear-gradient(to right,black,maroon);
+    display:flex;
+    width:100%;
+}
+#name
+{
+ width:100%;
+ text-align:center;
+}
+
+#name h1
+{
+color:white;
+margin-top:1%;
+}
+
+#list
+{
+	width:15%;
+}
+
+#list a
+{
+	display: inline-block;
+    margin:10px;
+	padding:10px;
+    border:1px solid white;
+	border-radius:0px;
+    color: white;
+    font-size: 20px;
+	float:right;
+	text-decoration:none;
+	transition-duration:0.7s;
+}
+#list a:hover
+{
+	background:white;
+	border:1px solid red;
+	color:maroon;
+	
+}
+
+
+/*   Poster */
+
+#orgposter img
+ {
+ height:auto;
+ width:100%;
+ 
+ }
+
+/*  Data Entry Section   */
+#add-data
+ {
+	
+	margin:auto;
+	padding:20px;
+	background-color:white;
+	
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+       
+ }
+ .fields
+ {
+	outline:none;
+	border:none;
+	border-bottom:2px solid black;
+	width:88%;
+	float:right;
+	font-size:20px;
+ }
+label
+ {
+	font-size:30px;
+	color:purple;
+ }
+ #header
+ {
+	text-align:center;
+	font-size:30px;
+	color:purple;
+ }
+ #pics
+ {
+	font-size:20px;	
+	color:red;
+	border-radius:10px;
+	outline:none;
+	border:1px solid black;
+
+ }
+ #pics:hover
+ {
+	cursor:pointer; 
+ }
+ .send-button
+ {
+	border:none;
+	width:35%;
+	float:right;
+	border-radius:10px;
+	outline:none;
+	height:35px;
+	color:white;
+	font-size:20px;
+	background:linear-gradient(120deg,purple,darkblue,blue,skyblue);
+	box-shadow:3px 3px 7px gray;
+ }
+ .send-button:hover
+ {
+	background:linear-gradient(120deg,maroon,red,orange,yellow);
+	cursor:pointer;
+ }
+ 
+ .edit-button
+ {
+	border:none;
+	width:100%;
+	outline:none;
+	height:50px;
+	color:white;
+	font-size:20px;
+	background:linear-gradient(120deg,maroon,red);
+	margin:30px 0px;
+ }
+ .edit-button:hover
+ {
+	 background:linear-gradient(120deg,red,orange);
+	text-decoration:underline;
+	cursor:pointer;
+	font-size:21px;
+ }

@@ -1,0 +1,202 @@
+body
+	{
+	 
+	 margin:0;
+	 padding:0;
+	 background-image:url(nature.jpg);
+	 background-size:auto;
+	  
+	}
+	h1
+	{
+		margin-top:10px;
+		text-shadow:0 0 20px white;
+		color:white;
+		text-align:center;
+	}
+	
+    #mainbox
+	{
+		display:flex;
+		position:relative;
+		height:auto;
+	}
+	#loginbox
+	{
+		width:100%;
+		text-align:center;
+	}
+	
+	#outerbox
+	 {
+	  background:rgba(0,0,0,0.7);
+	  width:60%;	
+	  height:auto;
+	  border-radius:5px;
+	  box-shadow: 0px 0px 10px 5px white;
+	  margin:auto;
+	  text-align:center;
+	  margin-top:10%;
+	  box-sizing:box-border;
+	  }
+	.img{
+	  width:150px;
+	  margin-top:-90px;
+	  }
+	 #form{
+	 margin-top:40px;
+	 }
+	 #Sub{
+	 background:darkblue;
+	 width:72%;
+	 height:30px;
+	 color:white;
+	 border-radius:10px;
+	 margin-left:34px;
+	 margin-top:22px;
+	 }
+	 #Sub:hover{
+		background:black;
+		padding:1px;
+		border-radius:10px;
+		box-shadow: 0px 0px 10px 10px red;
+		cursor:pointer;
+	 }
+	 #outerbox input[type=text]{
+		padding:5px;
+		border-radius:10px;
+		width:70%;
+		margin-top:20px;
+		outline:none;
+		background:white;
+	 }
+     #outerbox input[type=password]{
+		padding:5px;
+		border-radius:10px;
+		width:70%;
+		outline:none;
+		background:white;
+	 }
+	#h
+	{
+		margin-top:10px;
+		text-shadow:0 0 20px white;
+		color:white;
+		
+	}
+	::placeholder
+	{
+	 text-align:center;
+	 font-style:italic;
+	}
+	
+	#joinus
+	{
+		color:white;  
+		font-style:italic; 
+		font-size:25px; 
+		font-weight:bold;
+		
+	}
+	
+	/*=============User Sign up======================*/
+	.box
+   {
+	background-color:rgba(0,0,0,0.7);
+	height:90vh;
+	width:450px;
+	padding:3px 30px 30px 30px;
+	margin:auto;
+	color:white;
+	box-sizing:border-box;
+   }
+  
+  .fill
+   {
+    margin-left:170px;
+	width:208px;
+	padding:5px;
+	background:none;
+	border-width:0px 0px 2px 0px;
+	color:white;	
+	outline:none;
+   }
+  
+
+
+   .box label
+    {
+	color:white;
+	position:absolute;
+    }
+  
+ input[type=radio]
+    {
+    border-color:white;
+	margin-left:170px;
+	}
+	
+  ::placeholder
+	 {
+	 text-align:left;
+	 font-style:italic;
+	 }
+ input[type=submit]
+    {
+    width:100%;
+	padding:8px;
+	box-sizing:box-border;
+	font-size:15px;
+	background:rgba(0,139,139,0.4);
+	color:white;
+	margin-bottom:10px;
+    }	
+ 
+ input[type=submit]:hover
+   {
+   background:#003366;
+   cursor:pointer;
+   }
+ 
+    /*===========Menu section============*/
+     
+   .menu{
+      background : rgb(0,0,0,0.7);
+      padding: 15px 0px;
+      text-align: center;
+	  height:8vh;
+      width: 100%;
+	  box-shadow:0px 3px 5px gray;
+
+   }
+   
+   .logo
+   {
+	   float:left;
+	   margin-left:5px;
+	   display:inline-block;
+	   
+   }   
+   
+   .menu li{
+          list-style-type: none;
+          display: inline-block;
+          padding: 10px 40px;
+		  margin:0px 15px;
+          border:1px solid white;
+		  border-radius:7px;
+          color: white;
+          font-size: 20px;
+		 	  
+		  }	
+	.menu li a
+	{
+	 text-decoration:none;
+	 color:white;
+	}	
+	.menu li:hover, #active
+	{
+	 background:rgb(128,0,128,0.4);
+	}
+   /*=================================*/
+ 

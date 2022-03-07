@@ -1,0 +1,182 @@
+ *{
+      padding: 0px;
+      margin: 0px;
+   }
+
+body
+{
+	font-family:Candara;
+}   
+#orgname
+{
+box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+margin:20px;
+background-color:purple;
+display:flex;
+border-radius:20px;
+margin-top:-3%;
+}
+#edonation img
+{
+	margin-top:36%;
+}
+#name
+{
+ width:100%;
+ text-align:center;
+ background-color:white;
+ border-radius:0px 0px 20px 0px;
+}
+#name h1
+{
+	margin-top:4.5%;
+	color:purple;
+}
+
+#orgposter img
+{
+ height:auto;
+ width:100%;
+}
+
+#intro
+{
+margin:20px;
+border:1px solid green;
+
+display:flex;
+}
+
+#logo
+{
+border:1px solid blue;
+height:80px;
+margin:20px;
+background-color:pink;
+width:10%;
+}
+
+#para
+{
+border:1px solid orange;
+height:80px;
+width:90%;
+margin:20px;
+background-color:gray;
+}
+
+#aboutorg
+{
+box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+padding:10px;
+margin:20px 40px;
+background-color:white;
+}
+
+
+
+/*================== Intro Part =============================*/
+	.box{
+      margin:20px;
+	  margin-top:20px;
+	  background:white;
+      font-size: 25px;
+	  box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	  display:flex;
+	  justify-content:space-between;
+   }
+     
+  .para
+  {
+   color:purple;
+   padding:20px;
+   font-size:20px;
+   text-align:center;
+ } 
+ 
+  .poster
+  {
+    border-radius:10px;
+    width:120px;
+	height:120px;	
+  }
+  .donate
+  {
+	float:right;
+	border:none;		
+	padding:10px;
+	outline:none;
+	background:purple;
+	color:white;
+	font-size:17px;
+	transition-duration:0.7s;
+  }
+   .donate:hover
+   {
+	background:green;
+	cursor:pointer;
+	color:white;
+	text-decoration:underline;
+	font-size:19px;
+   }
+   
+#pictures
+{
+	display:flex;
+}
+.images
+{
+	width:80%;
+	height:auto;
+	
+	margin:5px;
+}
+#detailhead
+{
+	text-align:center;
+}
+#detailpara
+{
+	font-size:20px;
+}
+
+/*================== Footer Part =======================*/
+ .footer
+   {
+	height:auto;  
+    width:"100%";	
+	background:purple;
+    padding:0px 80px;	
+	display:flex;
+	justify-content:space-between;
+	margin-top:20px;
+   }
+    
+   .footer #fabout, #fcontact, #flogo 
+   {
+    margin-top:10px;
+	text-align:center;
+	color:white;
+		
+   }
+   .footer #fabout, #fcontact 
+   {
+    width:280px;
+	text-decoration:none;
+	color:white;
+   }
+   .footer #fabout a, #fcontact a 
+   {
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+   }
+   .footerpara
+   {
+    color:#ccc;
+   }
+   .footer #flogo img
+   {
+	   height:auto;
+	   width:auto;
+   }

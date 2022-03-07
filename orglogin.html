@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Organisation Log-In!</title>
+<link rel="stylesheet" type="text/css" href="userlogin.css">
+<style>
+ #eDonation-Logo
+ {
+   margin-bottom:-50px;
+ }
+ #Registration-Link
+ { 
+   text-decoration:none;
+   color:white;
+   font-size:30px;
+   text-shadow:0 0 20px;
+ }
+ #SubButton
+ { background:darkblue;
+	 width:72%;
+	 height:30px;
+	 color:white;
+	 border-radius:10px;
+ }
+#SubButton:hover{
+		background:black;
+		padding:1px;
+		border-radius:10px;
+		box-shadow: 0px 0px 10px 10px blue;
+		cursor:pointer;
+	 } 
+ #regibox
+ {    background:rgba(0,0,0,0.8);
+	  width:60%;	
+	  height:70px;
+	  border-radius:5px;
+	  box-shadow: 0px 0px 10px 5px white;
+	  margin:auto;
+	  text-align:center;
+	  margin-top:1%;
+	  box-sizing:box-border;
+ }	 
+ #regibox:hover
+ {
+ box-shadow: 0px 0px 10px 5px blue;
+ }
+</style>
+</head>
+<body>
+
+<nav class="menu" id="menu">
+      
+	  <div class="logo">
+	    <a href="index.html"><img src="logoH.png" ></a>
+	  </div>
+	  
+	  <ul>
+		 <li ><a href="index.html" >Main Site</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <li><a href="about.html">About</a></li>
+      </ul>
+	  
+    </nav> 
+
+ 
+
+  <div  id="outerbox">
+		</br>
+		 <h1 id="h">LOG IN FOR ORGANISATIONS</h1>
+		 <img src="logoH.png" alt="eDonation-Logo" id="eDonation-Logo"/>
+		<form action="orglogin.php" id="form" method="post">
+			
+			<input type="text" placeholder="Username here..." name="username"  required>
+			<br></br>
+			
+			<input type="Password" " placeholder="Password here..." name="password" required >
+			<br></br>
+			<input type="submit" value="Log-IN" style="margin-bottom:10px;" id="SubButton"><br>
+		</form>
+	</div>
+      	
+	<div id="regibox"></br><a href="orgregister.html" id="Registration-Link" >Registration Link For Organisations</a></div>
+
+
+</body>
+</html>

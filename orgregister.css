@@ -1,0 +1,160 @@
+body
+{
+  background: url(nature.jpg);
+  font-family:Candara;
+  background-repeat:no-repeat;
+  background-position:;
+  background-size:cover;
+  margin:0;
+  padding:0;	
+}
+.regi
+{
+margin:auto;
+padding:10px;
+background-color:rgba(255,255,255);
+text-align:center;
+width:95%;
+box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#username
+{float:left;}
+#ConfirmPassword
+{float:right;}
+
+.registration
+{
+ width:25%;
+ border:none;
+ border-bottom:2px solid black;
+ outline:none;
+ color:black;
+ height:40px;
+ text-align:center;
+ font-size:20px;
+ font-family:candara;
+}
+.form
+{
+margin:auto;
+text-align:center;
+padding:10px;
+background-color:white;
+box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+width:95%;
+}
+
+.head
+{
+	text-align:center;
+	color:white;
+	text-decoration:underline;
+}
+#text
+{
+	width:300px;
+	height:80px;
+}
+label
+{
+	color:black;
+	font-size:22px;
+	font-weight:bold;
+}
+#orgname, #text
+{
+ width:80%;
+ background:transparent;
+ border:none;
+ border-bottom:2px solid black; 
+ outline:none;
+ color:black;
+ font-size:20px;
+ padding:20px;
+}
+
+#posterL
+{
+margin-left:40px;
+}
+
+#choose, #poster
+{
+font-size:20px;	
+color:purple;
+border-radius:10px;
+outline:none;
+border:1px solid black;
+}
+
+#choose:hover, #poster:hover 
+{
+	background:purple;
+	color:lavender;
+	cursor:pointer;
+}
+
+#buttondiv
+{
+	text-align:center;
+	margin-top:30px;
+}
+.button
+{
+
+	width:96%;
+	height:35px;
+	background:rgba(106,13,173,0.4);
+	color:white;
+	font-size:20px;	
+}
+
+.button:hover
+{
+background:rgba(110,12,170);
+cursor:pointer;	
+}
+
+  /*===========Menu section============*/
+     
+   .menu{
+      background : rgb(0,0,0,0.7);
+      padding: 15px 0px;
+      text-align: center;
+	  height:8vh;
+      width: 100%;
+	  box-shadow:0px 3px 5px gray;
+
+   }
+   
+   .logo
+   {
+	   float:left;
+	   margin-left:5px;
+	   display:inline-block;
+	   
+   }   
+   
+   .menu li{
+          list-style-type: none;
+          display: inline-block;
+          padding: 10px 40px;
+		  margin:0px 15px;
+          border:1px solid white;
+		  border-radius:7px;
+          color: white;
+          font-size: 20px;
+		 	  
+		  }	
+	.menu li a
+	{
+	 text-decoration:none;
+	 color:white;
+	}	
+	.menu li:hover, #active
+	{
+	 background:rgb(128,0,128,0.4);
+	}
+   /*=================================*/
+ 
